@@ -4,6 +4,7 @@ metadata:
   name: nginx-uuid
 spec:
   type: NodePort
+  sessionAffinity: None
   selector:
     app: nginx-uuid
   ports:
